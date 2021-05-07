@@ -17,3 +17,7 @@ clap = "2.33.2"
 indicatif = "0.15.0"
 spi-flash = "0.2.2"
 jtagdap = "0.1.0"
+
+[patch.crates-io]
+spi-flash = { git = 'https://github.com/ikle/rust-spi-flash', branch = 'stretch' }
+jtagdap   = { git = 'https://github.com/ikle/rust-jtagdap',   branch = 'stretch' }
